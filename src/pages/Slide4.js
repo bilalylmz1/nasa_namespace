@@ -11,7 +11,7 @@ const Slide4 = () => {
         />
 
         <p style={{ marginTop: '20px', fontSize: '1em', color: '#666' }}>
-        Slider'ı hareket ettirerek öncesi ve sonrası durumu karşılaştırabilirsiniz.
+        
       </p>
       
     </div>
