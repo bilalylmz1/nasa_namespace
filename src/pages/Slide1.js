@@ -3,16 +3,19 @@ import React from 'react';
 const Slide1 = () => {
   return (
     <div className="slide">
-      <h1>Doğal Afetler ve Etkileri</h1>
-      <p>
-        Bu sunumda doğal afetlerin çevreye ve insan yaşamına etkilerini 
-        öncesi ve sonrası fotoğraflarla inceleyeceğiz.
-      </p>
-      <div style={{ marginTop: '40px', fontSize: '1.1em', color: '#666' }}>
-        <p>📊 7 Sayfalık Detaylı Analiz</p>
-        <p>📸 Görsel Karşılaştırmalar</p>
-        <p>🔍 Etki Değerlendirmeleri</p>
-      </div>
+      <h1>Verileri Nasıl Elde Ediyoruz?</h1>
+      
+      <img 
+        src="/static/sar.jpeg" 
+        alt="Açıklama" 
+        style={{
+          maxWidth: '80%',
+          maxHeight: '60vh',
+          objectFit: 'contain',
+          borderRadius: '10px',
+          boxShadow: '0 10px 25px rgba(0, 0, 0, 0.2)'
+        }}
+      />
     </div>
   );
 };

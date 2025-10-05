@@ -13,7 +13,10 @@ const BeforeAfterSlider = ({ beforeImage, afterImage, title }) => {
       <h3>{title}</h3>
       <div className="before-after-slider">
         <div className="image-container">
-          <div className="before-image">
+          <div 
+            className="before-image"
+            style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
+          >
             <img src={beforeImage} alt="Before" />
             <div className="image-label before-label">ÖNCESİ</div>
           </div>

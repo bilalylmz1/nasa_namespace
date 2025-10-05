@@ -6,7 +6,7 @@ import Slide3 from './pages/Slide3';
 import Slide4 from './pages/Slide4';
 import Slide5 from './pages/Slide5';
 import Slide6 from './pages/Slide6';
-import Slide7 from './pages/Slide7';
+
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -18,7 +18,7 @@ function App() {
     <Slide4 />,
     <Slide5 />,
     <Slide6 />,
-    <Slide7 />
+    
   ];
 
   const nextSlide = () => {
